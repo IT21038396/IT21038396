@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#DBE5FA"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="323dp"
+        android:layout_height="671dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="116dp"
+        android:alpha="32"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:src="@drawable/fitness1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+
+    <Button
+        android:id="@+id/annualBtn"
+        style="@style/MyButton"
+        android:layout_width="353dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/Annual"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monthlyBtn" />
+
+    <Button
+        android:id="@+id/monthlyBtn"
+        style="@style/MyButton"
+        android:layout_width="354dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/monthly"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/annualBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RegtextView" />
+
+    <TextView
+        android:id="@+id/RegtextView"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="353dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="29dp"
+        android:background="#708C91"
+        android:backgroundTintMode="src_in"
+        android:fontFamily="sans-serif"
+        android:text="@string/selectPlan"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="400dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="22dp"
+        android:background="#047BB1"
+        android:elegantTextHeight="false"
+        android:fadingEdge="vertical"
+        android:freezesText="false"
+        android:text="@string/mainTopic"
+        android:textAlignment="center"
+        android:textColor="#00060C"
+        android:textColorHighlight="#32B31B"
+        android:textColorHint="#593636"
+        android:textColorLink="#C64242"
+        android:textDirection="inherit"
+        android:textSelectHandle="@color/purple_500"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
