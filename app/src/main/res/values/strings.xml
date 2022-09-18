@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Fitness App</string>
+    <string name="selectPlan">Select Your Fitness Plan</string>
+    <string name="monthly">Monthly plan</string>
+    <string name="mainTopic">Fitness Plans</string>
+    <string name="Annual">3 Months Plan</string>
+    <string name="months3Switch1">Trainer</string>
+    <string name="months3Switch2">Diet Plan</string>
+    <string name="annualPageTopic">3 Months Plan</string>
+    <string name="monthlyPlanPrice">29 $</string>
+    <string name="annualBackBtn">BackBtn</string>
+    <string name="monthsDescription">If you think lifting is hard Try Quitting!</string>
+    <string name="buyBtn3Months">Purchase</string>
+    <string name="monthsPlanSwitch1">Diet Plan</string>
+    <string name="monthsPlanSwitch2">Trainer</string>
+    <string name="months3Price">99 $</string>
+    <string name="month3ImageDescription">fitness2</string>
+    <string name="plansPgImgDescription">Image on my plans activity</string>
+    <string name="myPlanBackBtn">imageViewBackBtn</string>
+    <string name="myPlansPgTopic">My Plans</string>
+    <string name="plan1View">Plan 1</string>
+    <string name="plan1Description">purchasedPlanDescription</string>
+    <string name="monthlyPageTopic">Monthly Plan</string>>
+</resources>

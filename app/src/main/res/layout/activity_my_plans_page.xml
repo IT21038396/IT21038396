@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myPlansPage">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="635dp"
+        android:layout_height="1065dp"
+        android:background="#F89C15"
+        android:contentDescription="@string/plansPgImgDescription"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="200dp"
+        android:requiresFadingEdge="horizontal|vertical"
+        android:scaleType="centerCrop"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26"
+        app:srcCompat="@drawable/fitness4"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/myPlansPgTopic"
+        android:layout_width="390dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/corner_rounder"
+        android:fontFamily="sans-serif-black"
+        android:foregroundGravity="center|center_horizontal"
+        android:text="@string/myPlansPgTopic"
+        android:textAlignment="center"
+        android:textColor="#76CDF4"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/myPlansBackButton"
+        android:layout_width="33dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/corner_rounder"
+        android:backgroundTint="#047BB1"
+        android:contentDescription="@string/myPlanBackBtn"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/PlanImageButton"
+        android:layout_width="384dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="173dp"
+        android:background="@drawable/image_rounder"
+        android:contentDescription="@string/plan1Description"
+        android:scaleType="fitEnd"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fitness4" />
+
+    <TextView
+        android:id="@+id/paln1View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="216dp"
+        android:fontFamily="casual"
+        android:text="@string/plan1View"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
