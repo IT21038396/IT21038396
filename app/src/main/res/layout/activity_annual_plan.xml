@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".AnnualPlanActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="846dp"
+        android:layout_height="780dp"
+        android:backgroundTint="@color/purple_200"
+        android:contentDescription="@string/month3ImageDescription"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:src="@drawable/fitness2"
+        android:verticalScrollbarPosition="right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714"
+        tools:ignore="ImageContrastCheck">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/annualPageTopic"
+        android:layout_width="405dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/corner_rounder"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="5dp"
+        android:paddingRight="20dp"
+        android:text="@string/annualPageTopic"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/myPlansBackButton"
+        android:layout_width="29dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/corner_rounder"
+        android:backgroundTint="#047BB1"
+        android:contentDescription="@string/annualBackBtn"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:ignore="ImageContrastCheck" />
+
+    <Switch
+        android:id="@+id/annualPlanSwitch1"
+        android:layout_width="362dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/corner_rounder"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:scrollbarStyle="outsideInset"
+        android:switchPadding="40sp"
+        android:text="@string/months3Switch2"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:thumbTint="#FFC107"
+        app:layout_constraintBottom_toTopOf="@+id/switch2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="367dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/corner_rounder"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:switchPadding="64sp"
+        android:text="@string/months3Switch1"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:thumbTint="#FFC107"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/annualPlanSwitch1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="392dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#131212"
+        android:backgroundTintMode="screen"
+        android:fadingEdge="horizontal|vertical"
+        android:fontFamily="serif"
+        android:requiresFadingEdge="horizontal|vertical"
+        android:text="@string/monthsDescription"
+        android:textColor="#FFC107"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/annualPlanSwitch1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/months3PurchaseBtn"
+        android:layout_width="193dp"
+        android:layout_height="81dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/corner_rounder"
+        android:drawablePadding="20dp"
+        android:includeFontPadding="false"
+        android:padding="20dp"
+        android:text="@string/buyBtn3Months"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TextContrastCheck" />
+    app:margin
+
+    <TextView
+        android:id="@+id/price3MonthsPlan"
+        android:layout_width="169dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="41dp"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="@string/months3Price"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

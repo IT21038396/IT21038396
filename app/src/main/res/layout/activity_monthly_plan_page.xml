@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".monthlyPlanPage">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="553dp"
+        android:layout_height="806dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fitness5" />
+
+    <TextView
+        android:id="@+id/monthlyPlanTopic"
+        android:layout_width="405dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/corner_rounder"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="5dp"
+        android:paddingRight="20dp"
+        android:text="@string/monthlyPageTopic"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/myPlansBackButton"
+        android:layout_width="34dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/corner_rounder"
+        android:backgroundTint="#047BB1"
+        android:contentDescription="@string/annualBackBtn"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        tools:ignore="ImageContrastCheck" />
+
+
+    <Switch
+        android:id="@+id/monthlyPlanSwitch1"
+        android:layout_width="362dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="254dp"
+        android:background="@drawable/corner_rounder"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:scrollbarStyle="outsideInset"
+        android:switchPadding="40sp"
+        android:text="@string/monthsPlanSwitch1"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:thumbTint="#DA07FF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/monthlyPlanSwitch2"
+        android:layout_width="359dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="335dp"
+        android:background="@drawable/corner_rounder"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:switchPadding="64sp"
+        android:text="@string/monthsPlanSwitch2"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:thumbTint="#DA07FF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
